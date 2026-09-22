@@ -16,8 +16,8 @@ backend:
 # Lokaal testen zonder GitHub-authenticatie (optioneel, handig voor development):
 # local_backend: true
 
-media_folder: "assets/uploads"   # Waar geüploade afbeeldingen terechtkomen
-public_folder: "assets/uploads"  # Relatief pad waarmee ze in de JSON worden opgeslagen
+media_folder: "assets/images"   # Waar geüploade afbeeldingen terechtkomen
+public_folder: "assets/images"  # Relatief pad waarmee ze in de JSON worden opgeslagen
 
 publish_mode: simple
 
