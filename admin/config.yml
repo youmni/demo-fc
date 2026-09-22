@@ -10,7 +10,7 @@
 #
 backend:
   name: github
-  repo: OWNER/REPOSITORY # <-- VERVANGEN: jouw GitHub owner/repo
+  repo: youmni/demo-fc
   branch: main
 
 # Lokaal testen zonder GitHub-authenticatie (optioneel, handig voor development):
