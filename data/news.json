@@ -13,6 +13,13 @@
       "excerpt": "geen idee lol",
       "image": "assets/uploads/rio-de-janeiro-soccer.jpg",
       "image_alt": "rio"
+    },
+    {
+      "title": "geen training",
+      "date": "2026-09-22",
+      "excerpt": "stop",
+      "image": "assets/images/rio-de-janeiro-soccer.jpg",
+      "image_alt": "test"
     }
   ]
 }
