@@ -1,0 +1,65 @@
+# =========================================================
+# Decap CMS configuratie voor FC Demo
+# =========================================================
+#
+# BELANGRIJK:
+# Vervang "OWNER/REPOSITORY" hieronder door je eigen GitHub
+# gebruikersnaam/organisatie en repository-naam, bijvoorbeeld:
+#
+#   repo: janjansen/voetbalclub-demo
+#
+backend:
+  name: github
+  repo: OWNER/REPOSITORY # <-- VERVANGEN: jouw GitHub owner/repo
+  branch: main
+
+# Lokaal testen zonder GitHub-authenticatie (optioneel, handig voor development):
+# local_backend: true
+
+media_folder: "assets/uploads"   # Waar geüploade afbeeldingen terechtkomen
+public_folder: "assets/uploads"  # Relatief pad waarmee ze in de JSON worden opgeslagen
+
+publish_mode: simple
+
+collections:
+  - name: "news"
+    label: "Nieuws"
+    description: "Beheer de nieuwsberichten die op de homepage verschijnen."
+    files:
+      - name: "news"
+        label: "Nieuwsberichten"
+        file: "data/news.json"
+        fields:
+          - label: "Nieuwsberichten"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.date}}"
+            fields:
+              - label: "Titel"
+                name: "title"
+                widget: "string"
+                required: true
+
+              - label: "Datum"
+                name: "date"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                required: true
+
+              - label: "Samenvatting"
+                name: "excerpt"
+                widget: "text"
+                required: true
+
+              - label: "Afbeelding"
+                name: "image"
+                widget: "image"
+                required: true
+
+              - label: "Alt-tekst"
+                name: "image_alt"
+                widget: "string"
+                required: true
+                hint: "Korte beschrijving van de afbeelding voor toegankelijkheid (screenreaders)."

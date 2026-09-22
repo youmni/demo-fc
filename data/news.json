@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "Sterke start van het nieuwe seizoen",
+      "date": "2026-09-19",
+      "excerpt": "Onze eerste ploeg begon het weekend met een mooie overwinning tegen de buren van SK Rivaal.",
+      "image": "assets/images/news-training.svg",
+      "image_alt": "Illustratie van een voetbalwedstrijd op het veld"
+    },
+    {
+      "title": "Nieuwe jeugdtrainer aangesteld",
+      "date": "2026-09-10",
+      "excerpt": "Vanaf dit seizoen versterkt een ervaren jeugdtrainer onze U15- en U17-ploegen.",
+      "image": "assets/images/news-volunteers.svg",
+      "image_alt": "Illustratie van een trainer met jeugdspelers"
+    },
+    {
+      "title": "Clubhuis krijgt nieuwe kantine",
+      "date": "2026-08-28",
+      "excerpt": "Na maanden verbouwen is onze vernieuwde kantine eindelijk klaar voor gebruik door leden en bezoekers.",
+      "image": "assets/images/news-youth.svg",
+      "image_alt": "Illustratie van een clubhuis met vlaggen"
+    }
+  ]
+}

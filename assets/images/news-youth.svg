@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="title3 desc3">
+  <title id="title3">Clubhuis illustratie</title>
+  <desc id="desc3">Eenvoudige illustratie van een clubhuis met vlaggen</desc>
+  <rect width="400" height="240" fill="#f7f8f6"/>
+  <rect x="0" y="150" width="400" height="90" fill="#145a32"/>
+  <rect x="110" y="90" width="180" height="100" fill="#ffffff" stroke="#1c1f1d" stroke-width="2"/>
+  <polygon points="100,90 200,30 300,90" fill="#0e3d22"/>
+  <rect x="180" y="130" width="40" height="60" fill="#145a32"/>
+  <rect x="130" y="110" width="30" height="30" fill="#f1c40f"/>
+  <rect x="240" y="110" width="30" height="30" fill="#f1c40f"/>
+  <line x1="60" y1="90" x2="60" y2="20" stroke="#1c1f1d" stroke-width="3"/>
+  <polygon points="60,20 100,30 60,40" fill="#f1c40f"/>
+  <line x1="340" y1="90" x2="340" y2="20" stroke="#1c1f1d" stroke-width="3"/>
+  <polygon points="340,20 380,30 340,40" fill="#145a32"/>
+</svg>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FC Demo — Officiële website</title>
+  <meta name="description" content="Officiële website van voetbalclub FC Demo. Nieuws, wedstrijden en clubinformatie." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Ga naar inhoud</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="FC Demo — Home">
+        <span class="brand-badge" aria-hidden="true">⚽</span>
+        <span class="brand-name">FC Demo</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Hoofdnavigatie">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#nieuws">Nieuws</a></li>
+          <li><a href="#over">Over de club</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1>Welkom bij FC Demo</h1>
+        <p class="hero-subtitle">
+          Trots, samen en met passie voor voetbal — al jarenlang het kloppend hart van de buurt.
+        </p>
+        <div class="hero-actions">
+          <a href="#nieuws" class="btn btn-primary">Bekijk het laatste nieuws</a>
+          <a href="#contact" class="btn btn-secondary">Word lid</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="nieuws" class="news-section">
+      <div class="container">
+        <h2>Laatste nieuws</h2>
+        <p class="section-intro">Blijf op de hoogte van alles wat er leeft bij FC Demo.</p>
+
+        <div id="news-status" class="news-status" role="status" aria-live="polite">
+          Nieuws wordt geladen…
+        </div>
+
+        <div id="news-grid" class="news-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="over" class="about-section">
+      <div class="container">
+        <h2>Over FC Demo</h2>
+        <p>
+          FC Demo is een lokale voetbalclub met teams voor jong en oud. Onze missie is simpel:
+          plezier beleven aan voetbal, samen sterker worden en een hechte clubgemeenschap vormen.
+          Van de jeugdreeksen tot het eerste elftal — iedereen is welkom op ons terrein.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-block">
+        <h3>FC Demo</h3>
+        <p>Sportlaan 1, 1000 Demostad</p>
+      </div>
+      <div class="footer-block">
+        <h3>Contact</h3>
+        <p>
+          <a href="mailto:info@fcdemo.example">info@fcdemo.example</a><br />
+          +32 000 00 00 00
+        </p>
+      </div>
+      <div class="footer-block">
+        <h3>Volg ons</h3>
+        <p>Facebook · Instagram · X</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> FC Demo. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
