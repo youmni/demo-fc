@@ -20,6 +20,13 @@
       "excerpt": "stop",
       "image": "assets/images/rio-de-janeiro-soccer.jpg",
       "image_alt": "test"
+    },
+    {
+      "title": "Geen training",
+      "date": "2026-09-23",
+      "image": "assets/images/rio-de-janeiro-soccer.jpg",
+      "image_alt": "Brazil",
+      "excerpt": "Training stop gezet."
     }
   ]
 }
